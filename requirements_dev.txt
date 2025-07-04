@@ -1,2 +1,2 @@
 homeassistant>=2024.6.0b4
-smarter-client==0.2.2
+git+https://github.com/rchiechi/smarter-kettle-client.git@urllib3-v2-fix#egg=smarter-client
