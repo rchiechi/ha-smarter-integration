@@ -3,7 +3,7 @@ name = "homeassistant-smarter"
 version = "0.3.1"
 description = "Default template for PDM package"
 authors = [{ name = "Kirill Birger", email = "kbirger@gmail.com" }]
-dependencies = ["smarter-client>=0.2.4", "homeassistant>=2024.9.2"]
+dependencies = [ "homeassistant>=2024.9.2"]
 requires-python = "~=3.12.4"
 readme = "README.md"
 license = { text = "MIT" }
@@ -26,6 +26,10 @@ testing = [
     "pytest-asyncio>=0.23.8",
 ]
 linting = ["pre-commit>=3.8.0", "ruff>=0.6.5"]
+
+[tool.pdm.dependencies]
+"smarter-client" = { git = "https://github.com/rchiechi/smarter-kettle-client.git", ref = "urllib3-v2-fix" }
+homeassistant = ">=2024.9.2"
 
 [tool.pdm]
 distribution = false
