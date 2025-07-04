@@ -4,10 +4,10 @@ from abc import ABCMeta
 from abc import abstractmethod
 from typing import Any, Callable, Self
 from pprint import pprint
-from pyrebase.pyrebase import Stream
+from ...pyrebase.pyrebase import Stream
 
 import datetime
-from smarter_client.dict_util import delete_dict, patch_dict, put_dict
+from ..dict_util import delete_dict, patch_dict, put_dict
 from . import smarter_client
 import logging
 

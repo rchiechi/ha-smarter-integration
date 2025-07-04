@@ -1,8 +1,8 @@
 from __future__ import annotations
 from typing import Any, Dict
 
-from smarter_client.domain import Device, SmarterClient
-from smarter_client.managed_devices.base import BaseDevice
+from ..domain import Device, SmarterClient
+from .base import BaseDevice
 
 
 class SmarterKettleV3(BaseDevice):

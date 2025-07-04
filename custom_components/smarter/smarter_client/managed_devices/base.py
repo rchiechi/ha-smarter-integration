@@ -2,7 +2,7 @@ from abc import ABCMeta
 from collections.abc import Callable
 import threading
 from typing import Any
-from smarter_client.domain.models import Device
+from ..domain.models import Device
 
 
 class BaseDevice(metaclass=ABCMeta):
