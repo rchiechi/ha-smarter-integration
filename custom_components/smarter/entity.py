@@ -3,7 +3,7 @@
 from homeassistant.core import callback
 from homeassistant.helpers.device_registry import DeviceInfo
 from homeassistant.helpers.entity import Entity, EntityDescription
-from smarter_client.managed_devices.base import BaseDevice
+from .smarter_client.managed_devices.base import BaseDevice
 
 from .const import DOMAIN, MANUFACTURER
 

@@ -10,7 +10,7 @@ from homeassistant.components.switch import SwitchEntity, SwitchEntityDescriptio
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
-from smarter_client.managed_devices.base import BaseDevice
+from .smarter_client.managed_devices.base import BaseDevice
 
 from .const import DOMAIN
 from .entity import SmarterEntity

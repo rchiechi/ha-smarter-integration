@@ -8,3 +8,4 @@ venv
 .pdm-python
 coverage
 coverage.xml
+pips_to_integrate
