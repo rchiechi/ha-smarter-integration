@@ -13,7 +13,15 @@
   "loggers": [
     "smarter"
   ],
-  "requirements": [],
+  "requirements": [
+    "requests-toolbelt>=1.0.0",
+    "requests>=2.31",
+    "urllib3>=2",
+    "oauth2client>=4.1.2",
+    "python-jwt>=2.0.1",
+    "pycryptodome>=3.6.4",
+    "aiohttp~=3.9"
+  ],
   "ssdp": [],
   "version": "0.3.1",
   "zeroconf": []
